@@ -1,0 +1,42 @@
+body {
+    background: #000000;
+    font-family: monospace;
+}
+
+.canvas__placholder {
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    background: #fff;
+}
+
+.tools__container {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    & p {
+        color: #fff;
+        font-size: 25px;
+    }
+    & .tools__box {
+        width: 60%;
+        flex-wrap: wrap;
+        display: flex;
+        & .toolbox__brush {
+                color: #fff;
+            }
+        & button {
+            font-size: 20px;
+            background: transparent;
+            border: none;
+            user-select: none;
+            border-radius: 20px;
+            border: 1px solid #000;
+            padding: 10px 20px;
+            &:hover {
+                border: 1px solid #222222;
+                cursor: pointer;
+            }
+        }
+    }
+}
