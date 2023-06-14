@@ -20,11 +20,4 @@ let brushesBox = [
     {
         brush: '/',
     },
-    {
-        brush: '',
-    },
-    {
-        brush: '(.Y.)',
-    },
-    
 ];
